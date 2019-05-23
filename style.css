@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+/* mengatur font yang dipakai */
+body{
+    font-family: Arial;
+    background: #ffe600;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.login-box{
+    margin-top:150px;
+    flex-basis:400px;
+    background: #ffffff;
+    padding: 20px;
+}
+.login-box h2{
+    border-bottom: 1px solid #cccccc;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+input{
+    width: 100%;
+    padding: 15px 20px;
+    margin:8px 0;
+    border: 1px solid #cccccc;
+}
+button[type=submit]{
+    background-color: #038ade;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+}
